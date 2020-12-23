@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:paddingTop="10dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/text_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_image"
+        android:paddingTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="Title"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_price_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_title_tv"
+        android:layout_alignParentLeft="true"
+        android:text="Description"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_url_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_price_tv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="05dp"
+        android:text="View Details"
+        android:textSize="14sp" />
+
+</RelativeLayout>

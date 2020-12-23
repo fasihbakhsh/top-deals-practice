@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "172851189729",
+    "project_id": "top-deals-app",
+    "storage_bucket": "top-deals-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172851189729:android:24b01645a38f9b70a2e4a0",
+        "android_client_info": {
+          "package_name": "com.codinghomies.topdeals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172851189729-5hc6f3d6mc7mt2ci7d4fcicf9m18dkqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvhpkEC-JS7vsbg9f6XvgxNgG2Rv-osDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172851189729-5hc6f3d6mc7mt2ci7d4fcicf9m18dkqm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "172851189729-ao3pka2610vjfr2g11nb04jla5g5jhu4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sus.TopDealDataEntryApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
